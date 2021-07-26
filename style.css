@@ -1,0 +1,158 @@
+*{
+    font-family: 'Lato', sans-serif;
+}
+
+:root{
+    --bg-color: #2C2C2C;
+    --text-color: #f3f6f6;
+    font-size: 18px;
+}
+
+body{
+    font-family: 'Lato', sans-serif1;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+/* Le damos estilos al input "buscar por ciudad" */
+
+.searchbox{
+    padding: 10px 20px;
+    background-color: var(--text-color);
+    max-width: 480px;
+    margin: 0px auto;
+    border-radius: 3px;
+}
+
+.search{
+    width: 100%;
+    background-color: var(--text-color);
+    border: none;
+    font-size: 1rem;
+}
+
+.search-form{
+    margin: 20px 20px;
+}
+.search:focus{
+    outline: none;
+}
+
+/* Le damos estilos al weather */
+.weather-card{
+    margin: auto;
+    background: var(--text-color);
+    color: var(--bg-color);
+    padding: 20px;
+    text-align: center;
+    border-radius: 3px;
+    display: none;
+    max-width: 480px;
+}
+
+.city{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+
+.date{
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+}
+
+.temp-img{
+    width: 50px;
+    margin-right: 10px;
+}
+
+.temperature{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.temp{
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.weather{
+    font-size: 1.8rem;
+    margin-bottom: 1rem
+}
+/* Le damos estilos a la seccion Footer */
+
+footer{
+    position: fixed;
+    bottom: 0;
+    padding: 15px 0px;
+    border-top: 1px solid grey;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.63);
+}
+
+footer span a {
+    color: var(--text-color);
+    text-decoration: none;
+    margin-bottom: 0.75rem;
+    line-height: 1.2rem;
+}
+
+footer span a:hover {
+    text-decoration: underline;
+}
+
+
+/* Le damos estilos a la seccion Contacto */
+
+
+.contacto .ancho {
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid: 1rem;
+    padding: 0px 10px;
+    font-size: 1.2rem;
+}
+.contacto .contenedor a{
+    color: var(--text-color);
+    text-align: center;
+    width: 100px;
+    display: block;
+    padding: 25px 0;
+    font-size: 30px;
+}
+.contenedor .linkedin i:hover {
+    color: #0077b5;
+     transform: scale(1.5);
+    transition: 0.6s linear; 
+
+}
+
+.contenedor .gmail i:hover {
+    color: #BB001B;
+    transform: scale(1.5);
+    transition: 0.6s linear;
+}
+
+.contenedor .github i:hover {
+    color: rgba(104, 84, 84, 0.74);
+    transform: scale(1.5);
+    transition: 0.6s linear;
+}
+
+.contenedor .twitter i:hover {
+    color: #1DA1F2;
+    transform: scale(1.5);
+    transition-duration: 0.6s;
+}
