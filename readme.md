@@ -1,6 +1,6 @@
 # Proyecto Clima
 
-Este repositorio te permite buscar el clima de una ciudad, encontrarás un input el para colocar el nombre de la ciudad que desea, y al presionar la tecla 'Intro' automáticamente.
+Este repositorio te permite buscar el clima de una ciudad, encontrarás un input para colocar el nombre de la ciudad que desea, y al presionar la tecla 'Intro' automáticamente detallará las condiciones climáticas.
 
 Utiliza el API de openweathermap.
 
